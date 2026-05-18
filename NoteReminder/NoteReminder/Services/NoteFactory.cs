@@ -5,7 +5,6 @@ namespace NoteReminder.Services
 {
     public static class NoteFactory
     {
-        // Виправлено помилку версії мови 7.3 (замінено умовний вираз із null на чіткий if-else)
         public static Note CreateNote(string type, string title, string content, string priority, string category, DateTime? reminderTime)
         {
             if (string.IsNullOrWhiteSpace(title))

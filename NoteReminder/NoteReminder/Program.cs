@@ -5,6 +5,8 @@ namespace NoteReminder
 {
     static class Program
     {
+ feature/architecture
+ main
         [STAThread]
         static void Main()
         {

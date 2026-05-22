@@ -5,33 +5,35 @@ namespace NoteReminder.Services
 {
     public static class NoteFactory
     {
-        public static Note CreateNote(string type, string title, string content, string priority, string category, DateTime? reminderTime)
+        public static Note CreateNote(Models.NoteType type, string title, string content, string priority, string category, DateTime? reminderTime)
         {
             if (string.IsNullOrWhiteSpace(title))
                 throw new ArgumentException("Заголовок не може бути порожнім.");
 
-            if (type.ToLower() == "нагадування" || type.ToLower() == "reminder")
+            if (type == Models.NoteType.Reminder)
             {
                 if (!reminderTime.HasValue)
                     throw new ArgumentException("Для нагадування обов'язково вказувати час сповіщення.");
 
-                ReminderNote rNote = new ReminderNote();
-                rNote.Title = title;
-                rNote.Content = content;
-                rNote.Priority = priority;
-                rNote.Category = category;
-                rNote.ReminderTime = reminderTime.Value;
-                rNote.IsTriggered = false;
-                return rNote;
+                return new ReminderNote
+                {
+                    Title = title,
+                    Content = content,
+                    Priority = priority,
+                    Category = category,
+                    ReminderTime = reminderTime.Value,
+                    IsTriggered = false
+                };
             }
             else
             {
-                SimpleNote sNote = new SimpleNote();
-                sNote.Title = title;
-                sNote.Content = content;
-                sNote.Priority = priority;
-                sNote.Category = category;
-                return sNote;
+                return new SimpleNote
+                {
+                    Title = title,
+                    Content = content,
+                    Priority = priority,
+                    Category = category
+                };
             }
         }
     }

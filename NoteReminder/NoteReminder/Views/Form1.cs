@@ -53,7 +53,7 @@ namespace NoteReminder
         {
             string title = txtTitle.Text;
             string content = txtContent.Text;
-            string type = cmbType.SelectedItem.ToString();
+            NoteType type = cmbType.SelectedItem.ToString() == "Нагадування" ? NoteType.Reminder : NoteType.Simple;
             string priority = cmbPriority.SelectedItem.ToString();
             string category = cmbCategory.SelectedItem.ToString();
             DateTime reminderTime = dtpReminderTime.Value;
@@ -67,7 +67,7 @@ namespace NoteReminder
 
             try
             {
-                Note newNote = NoteFactory.CreateNote(type, title, content, priority, category, type == "Нагадування" ? (DateTime?)reminderTime : null);
+                Note newNote = NoteFactory.CreateNote(type, title, content, priority, category, type == NoteType.Reminder ? (DateTime?)reminderTime : null);
                 _noteManager.AddNote(newNote);
 
                 ClearFormInput();

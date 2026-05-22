@@ -61,6 +61,7 @@
     <Compile Include="Models\Note.cs" />
     <Compile Include="Models\ReminderNote.cs" />
     <Compile Include="Models\SimpleNote.cs" />
+    <Compile Include="Models\NoteType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\NoteFactory.cs" />
     <Compile Include="Services\NoteManager.cs" />

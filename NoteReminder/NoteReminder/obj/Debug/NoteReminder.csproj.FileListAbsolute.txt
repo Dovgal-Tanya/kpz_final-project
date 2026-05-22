@@ -1,0 +1,13 @@
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\obj\Debug\NoteReminder.csproj.AssemblyReference.cache
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\obj\Debug\NoteReminder.Properties.Resources.resources
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\obj\Debug\NoteReminder.Form1.resources
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\obj\Debug\NoteReminder.csproj.GenerateResource.cache
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\obj\Debug\NoteReminder.csproj.CoreCompileInputs.cache
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\bin\Debug\NoteReminder.exe.config
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\bin\Debug\NoteReminder.exe
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\bin\Debug\NoteReminder.pdb
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\obj\Debug\NoteRemi.4B9E412F.Up2Date
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\obj\Debug\NoteReminder.exe
+C:\Users\hryts\RiderProjects\Solution4\kpz_final-project\NoteReminder\NoteReminder\obj\Debug\NoteReminder.pdb
